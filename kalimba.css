@@ -1,0 +1,1044 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap');
+.kalimbaPage {
+    overflow: hidden;
+}
+.background-klb{
+    width: 100%;
+    height: 100%;
+    background: #280F34;
+}
+section {
+    position: absolute;
+    top: 80px;
+}
+
+.icon-kld span i{
+    display: flex;
+}
+
+.fa-sharp,.fa-compact-disc,.fa-headphones,.fa-volume-high {
+    animation: animationklb 15s linear infinite;
+    animation-duration: calc(150s/ var(--i));
+    color: #fff;
+    opacity: 0.8;
+    text-shadow: 0 0 5px #BFF4ED,
+    0 0 10px #E41655,
+    0 0 15px #E41655,
+    0 0 20px #E41655,
+    0 0 35px #E41655,
+    0 0 40px #E41655,
+    0 0 50px #E41655,
+    0 0 75px #E41655;
+}
+
+
+
+
+@keyframes animationklb {
+    0%
+    {
+        transform: translateY(100vh) scale(0.5);
+    }
+    100%
+    {
+        transform: translateY(-10vh) scale(3);
+    }
+}
+
+/*#region Kalimba*/
+.title-intrusment {
+    display: flex;
+    font-size: 80px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -30px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow:    0 0 7px #fff,
+                    0 0 10px #fff,
+                    0 0 21px #fff,
+                    0 0 42px #BFF4ED,
+                    0 0 82px #BFF4ED,
+                    0 0 92px #BFF4ED,
+                    0 0 102px #BFF4ED,
+                    0 0 151px #BFF4ED;
+    user-select: none;
+    filter: blur(0.007em);
+    animation: shake 2s linear forwards infinite;
+}
+
+@keyframes shake {
+    5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
+        filter: blur(0.018em);
+        transform: translateY(0.018em) rotate(0deg);
+    }
+
+    10%, 30%, 40%, 50%, 70%, 80%, 90% {
+        filter: blur(0.01em);
+        transform: translateY(-0.018em) rotate(0deg);
+    }
+
+    20%, 60% {
+        filter: blur(0.03em);
+        transform: translate(-0.018em, 0.018em) rotate(0deg);
+    }
+
+    45%, 85% {
+        filter: blur(0.03em);
+        transform: translate(0.018em, -0.018em) rotate(0deg);
+    }
+
+    100% {
+        filter: blur(0.007em);
+        transform: translate(0) rotate(-0.5deg);
+    }
+}
+
+
+.kalimba {
+    position: absolute;
+    top: 120px;
+    left: 550px;
+}
+.key {
+    margin-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 1;
+}
+
+/*#region icon*/
+.key-1 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 270px ;
+    margin-left: 1px;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #BFF4ED,
+    0 0 82px #BFF4ED,
+    0 0 92px #BFF4ED,
+    0 0 102px #BFF4ED,
+    0 0 151px #BFF4ED;
+    display: block;
+}
+.key-1 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-2 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 280px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+}
+.key-2 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-3 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 290px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+}
+.key-3 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-4 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 300px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+}
+.key-4 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-5 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 310px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+}
+.key-5 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-6 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 320px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+}
+.key-6 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-7 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 330px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+}
+.key-7 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-8 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 340px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+}
+.key-8 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-9 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 350px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+}
+.key-9 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-10 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 340px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+}
+.key-10 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-11 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 330px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+}
+.key-11 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-12 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 320px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+}
+.key-12 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-13 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 310px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+}
+.key-13 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-14 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 300px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+}
+.key-14 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-15 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 290px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+}
+.key-15 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-16 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 280px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+}
+.key-16 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+.key-17 .alphabet{
+    color: #BFF4ED;
+    position: absolute;
+    margin-top: 270px ;
+    margin-left: 1px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #BFF4ED,
+      0 0 82px #BFF4ED,
+      0 0 92px #BFF4ED,
+      0 0 102px #BFF4ED,
+      0 0 151px #BFF4ED;
+      display: block;
+    color: #BFF4ED;
+}
+.key-17 h7 {
+    color: #BFF4ED;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+    position: absolute;
+    margin-top: 120px ;
+}
+
+
+
+/*#endregion icon*/
+
+
+/*#region key*/
+.key-1 {   
+    width: 20px;
+    height: 270px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-2 {   
+    width: 20px;
+    height: 280px;
+    margin-top: 10px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-3 {   
+    width: 20px;
+    height: 290px;
+    margin-top: 20px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-4 {   
+    width: 20px;
+    height: 300px;
+    margin-top: 30px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-5 {   
+    width: 20px;
+    height: 310px;
+    margin-top: 40px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-6 {   
+    width: 20px;
+    height: 320px;
+    margin-top: 50px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-7 {   
+    width: 20px;
+    height: 330px;
+    margin-top: 60px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-8 {   
+    width: 20px;
+    height: 340px;
+    margin-top: 70px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-9 {   
+    width: 20px;
+    height: 350px;
+    margin-top: 80px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-10 {   
+    width: 20px;
+    height: 340px;
+    margin-top: 70px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-11 {   
+    width: 20px;
+    height: 330px;
+    margin-top: 60px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-12 {   
+    width: 20px;
+    height: 320px;
+    margin-top: 50px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-13 {   
+    width: 20px;
+    height: 310px;
+    margin-top: 40px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-14 {   
+    width: 20px;
+    height: 300px;
+    margin-top: 30px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-15 {   
+    width: 20px;
+    height: 290px;
+    margin-top: 20px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-16 {   
+    width: 20px;
+    height: 280px;
+    margin-top: 10px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+.key-17 {   
+    width: 20px;
+    height: 270px;
+    background: transparent;
+    border: 2px solid #BFF4ED;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #BFF4ED,
+            0 0 0.8rem #BFF4ED,
+            0 0 2.8rem #BFF4ED,
+            inset 0 0 1.3rem #BFF4ED; 
+    border-radius: 0px 0px 20px 20px;
+}
+/*#endregion key*/
+
+.key-klb {
+    animation: shake 0.5s;
+    transform: scale(.75);
+        color: #B30753;
+    background: #BFF4ED;
+    box-shadow: 0 0 10px #BFF4ED, 0 0 40px #BFF4ED, 0 0 80px #BFF4ED;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+.options-klb {
+    position: absolute;
+    bottom: 600px;
+    left: 1450px;
+}
+.dropdown-klb img{
+    width: 40px;
+    height: 55px;
+    cursor: pointer;
+    filter: invert(100%) sepia(32%) saturate(4702%) hue-rotate(169deg) brightness(111%) contrast(91%);
+}
+.dropdown-klb img:hover{
+    border-radius: 5px;
+    filter: invert(100%) sepia(18%) saturate(7491%) hue-rotate(185deg) brightness(106%) contrast(119%);
+    box-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #BFF4ED,
+                0 0 80px #BFF4ED,
+                0 0 90px #BFF4ED,
+                0 0 100px #BFF4ED,
+                0 0 150px #BFF4ED;
+}
+.dropdownmenu-klb{
+    color: #BFF4ED;
+    font-size: 20px;
+    position: absolute;
+}
+
+.options-klb .displayoption-klb{
+    position: absolute;
+    color: #BFF4ED;
+    margin-top: -60px;
+    margin-left: -70px;
+}
+.options-klb .displayoption-klb i{
+    color: #BFF4ED;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #BFF4ED,
+    0 0 80px #BFF4ED,
+    0 0 90px #BFF4ED,
+    0 0 100px #BFF4ED,
+    0 0 150px #BFF4ED;
+}
+.slide-icon-klb {
+    margin-left: 15px;
+    margin-top: -10px;
+}
+.listoption-klb {
+    transition: opacity 1s ease;
+    display: none;
+}
+
+
+.options-klb .displayoption-klb a,  .displayoption-klb p{
+    color: #BFF4ED;
+    text-decoration: none;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #BFF4ED,
+    0 0 80px #BFF4ED,
+    0 0 90px #BFF4ED,
+    0 0 100px #BFF4ED,
+    0 0 150px #BFF4ED;;
+}
+
+.options-klb .volume-klb{
+    position: absolute;
+    color: #BFF4ED;
+    margin-top: -60px;
+    margin-left: -150px;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #BFF4ED,
+    0 0 80px #BFF4ED,
+    0 0 90px #BFF4ED,
+    0 0 100px #BFF4ED,
+    0 0 150px #BFF4ED;;
+}
+
+.prevoption-klb, .nextoption-klb {
+    position: absolute;
+    margin-top: -24px;
+    cursor: pointer;
+}
+.prevoption-klb{
+    margin-left: -5px;
+}
+.nextoption-klb {
+    margin-left: 45px;
+}
+
+.prevoption-klb:hover, .nextoption-klb:hover {
+    opacity: 0.7;
+}
+
+/*#endregion Kalimba*/

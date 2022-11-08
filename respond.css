@@ -1,0 +1,79 @@
+/*#region mobile:iphone5*/
+@media screen {
+    
+}  
+/*#endregion mobile:iphone5*/
+
+/*#region mobile:iphone6,7,8/
+
+/*#endregion mobile:iphone6,7,8*/
+
+/*#region pc:1536x712*/
+@media screen and (min-width: 1920px) {
+    .tool-bar {
+        width: 16.5%;
+        height: 59%;
+    }
+    .listmusic {
+        width: 38%;
+    }
+    #volume .volume-control {
+        width: 25%;
+    }
+    .homebackground2 {
+        width: 45%;
+    }
+}
+/*#endregion pc:1536x712*/
+/*#region pc:1024*/
+@media screen and (max-width: 1024px) {
+    .btn-1,.btn-2,.btn-3{
+        left: -520px;
+    }
+    .homebackground {
+        height: 50%;
+    }
+    .tool-bar {
+        width: 22.5%;
+        height: 93%;
+    }
+    .search-bar form input{
+        width: 80%;
+    }
+    .line{
+        width: 18%;
+    }    
+    .line1{
+        width: 18%;
+    }
+    .listmusic {
+        width: 29.4%;
+        margin-left: -240px;
+    }
+    #volume .volume-control {
+        left: -200px;
+        width: 18%;
+    }
+    .volume-icon .fa-minus{
+        margin-left: -225px;
+      }
+    .volume-icon .fa-plus{
+        margin-left: 150px;
+    }
+    .volume-text{
+        margin-left: -160px;    
+    }
+    .homebackground2 {
+        left: 240px;
+        width: 75%;
+    }
+    .boxchangeslide {
+        left: 650px;
+        top: 460px;
+    }
+    .cd-thumb {
+        display: none;
+    }
+    
+}
+/*#endregion pc:1024*/
