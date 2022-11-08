@@ -31,6 +31,12 @@ const app = {
   
   songs: [
     {
+      name: "Tại vì sao",
+      singer: "MCK",
+      path: "./assets/music/rap/taivisao-mck.mp3",
+      tag: "rap"
+    },
+    {
       name: "Ngày tàn",
       singer: "DSK",
       path: "./assets/music/rap/dsk/ngaytan-dsk.mp3",
@@ -67,7 +73,7 @@ const app = {
         tag: "rap"
     },
     {
-        name: "Ai cũng nghĩ chúng ta làm chủ thế giới này",
+        name: "Ai cũng nghĩ mình làm chủ thế giới này",
         singer: "DSK",
         path: "./assets/music/rap/dsk/aicungnghichungtalamchuthegioinay-dsk.mp3",
         tag: "rap"
