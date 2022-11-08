@@ -86,6 +86,9 @@ header > li {
   margin-top: 15px;
 }
 
+.nav-item {
+  height: 100;
+}
 .nav-item a {
   color: #C72C41;
   margin-left: -20px;
@@ -728,6 +731,10 @@ input[type="text"]{
   font-size: 15px;
   color: #C72C41;
   font-family: 'Reem Kufi Fun', sans-serif;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap; 
+  width: 210px; 
 }
 
 .song .author {
